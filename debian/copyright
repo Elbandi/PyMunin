@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: PyMunin
+Source: http://aouyar.github.com/PyMunin
+
+Files: *
+Copyright: Copyright (c) 2011 Ali Onur Uyar
+License: GPL-3
+ For details see /usr/share/common-licenses/GPL-3

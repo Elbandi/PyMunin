@@ -1,0 +1,24 @@
+Source: pymunin
+Maintainer: Ali Onur Uyar <aouyar@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+Package: python-pymunin
+Architecture: all
+XB-Python-Version: ${python:Versions}
+Depends: ${misc:Depends}, ${python:Depends}
+Provides: ${python:Provides}
+Description: Python Module for developing Munin Multigraph Monitoring Plugins
+ More detailed documentation for the project and sample graphs for plugins are
+ published in the [PyMunin Project Web Page](http://aouyar.github.com/PyMunin/).
+ .
+ Regular Munin Plugins employ one-plugin one-graph logic and require the
+ execution of a script for data retrieval for each graph.
+ Multigraph plugins permit retrieval of data for multiple graphs in one
+ execution run (one-plugin many-graphs), reducing the processing time 
+ and delay for the fetch cycle significantly.
+ More information on Multigraph Plugins can be found in the 
+ [Munin Wiki](http://munin-monitoring.org/wiki/)
+ .
